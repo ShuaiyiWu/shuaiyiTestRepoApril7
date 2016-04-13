@@ -1,3 +1,15 @@
+<#
+.SYNOPSIS
+    This is a Powershell script to create a build
+.DESCRIPTION
+    Usage: Run .\.openpublishing.build.ps1 to create a local build
+.PARAMETER buildCorePowershellUrl
+    Specifies build core Powershell script.
+.PARAMETER parameters
+    Specifies optional paramerters.
+    _op_accessToken: access token for Open Publish.
+#>
+
 param(
     [string]$buildCorePowershellUrl = "https://opbuildstoragesandbox2.blob.core.windows.net/opps1container/.openpublishing.buildcore.ps1",
     [string]$parameters

@@ -29,7 +29,9 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "ROBOTS": "INDEX, FOLLOW"
+    },
     "fileMetadata": {},
     "template": [
       "op.html"
